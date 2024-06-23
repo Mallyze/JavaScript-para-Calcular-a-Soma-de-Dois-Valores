@@ -1,0 +1,28 @@
+
+/* Estiliza o body para centralizar o conteúdo na página */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Para dar espaço entre o botão e os inputs para que nao fiquem muito perto */
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Cria um estilo visualmente bonito para o botão */
+
+button {
+    background-color: rgb(155, 155, 241);
+    border: 3px solid blueviolet;
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+}
